@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="335dp"
+        android:layout_height="272dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dummy_profile" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/upward" />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/downward" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter Text"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/home_screen"
+        android:layout_width="179dp"
+        android:layout_height="57dp"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/purple_500" />
+
+</LinearLayout>

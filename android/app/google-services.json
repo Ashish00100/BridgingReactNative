@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102226737244",
+    "project_id": "reactnativebridging",
+    "storage_bucket": "reactnativebridging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102226737244:android:d1cbfe60836d8b7e8d4e99",
+        "android_client_info": {
+          "package_name": "com.dummyproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz_30x5bVNbahmGEKcjePR4OfcMuu55yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
